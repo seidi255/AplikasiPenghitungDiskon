@@ -5,7 +5,7 @@ Fungsi Utama Aplikasi
 
 Aplikasi ini dirancang untuk membantu pengguna menghitung harga akhir suatu produk setelah diberikan diskon. Selain itu, aplikasi juga dapat menyimpan riwayat perhitungan untuk referensi di kemudian hari.
 
-Cara Kerja Aplikasi
+**Cara Kerja Aplikasi**
 
 Input Data:
 
@@ -24,12 +24,12 @@ Hasil perhitungan, yaitu harga akhir dan jumlah penghematan, akan ditampilkan pa
 Riwayat perhitungan akan ditambahkan ke dalam text area, sehingga pengguna dapat melihat kembali perhitungan sebelumnya.
 Komponen Utama dalam Kode:
 
-JTextField: Komponen untuk menerima input berupa teks, seperti harga asli dan kode kupon.
-JComboBox: Komponen dropdown untuk memilih persentase diskon.
-JSlider: Komponen slider untuk memilih persentase diskon secara visual.
-JButton: Tombol untuk memulai proses perhitungan.
-JTextArea: Area teks untuk menampilkan riwayat perhitungan.
-Logika Pemrograman:
+- JTextField: Komponen untuk menerima input berupa teks, seperti harga asli dan kode kupon.
+- JComboBox: Komponen dropdown untuk memilih persentase diskon.
+- JSlider: Komponen slider untuk memilih persentase diskon secara visual.
+- JButton: Tombol untuk memulai proses perhitungan.
+- JTextArea: Area teks untuk menampilkan riwayat perhitungan.
+**Logika Pemrograman:**
 
 EventHandler: Ketika tombol "Hitung" ditekan, sebuah event handler akan dijalankan.
 Validasi Input: Aplikasi akan memeriksa apakah input harga asli berupa angka. Jika tidak, akan muncul pesan error.
